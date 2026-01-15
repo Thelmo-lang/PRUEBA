@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 # ---------------- INVENTARIO ----------------
 inventario = {
-    "camisa": {"precio": 50000, "descuento": 10},
+    "camisa": {"precio": 50000, "descuento": 10},[
     "pantalon": {"precio": 80000, "descuento": 0},
     "zapatos": {"precio": 120000, "descuento": 20},
-}
+"chaqueta": {"precio": 320000, "descuento": 25},
 
 def consultar_producto(nombre_producto):
     nombre_producto = nombre_producto.lower()
