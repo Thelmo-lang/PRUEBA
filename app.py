@@ -30,7 +30,7 @@ html = """
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>ChatBot Inventario</title>
+    <title>ChatBot Thelmo</title>
     <style>
         body {
             font-family: Arial;
